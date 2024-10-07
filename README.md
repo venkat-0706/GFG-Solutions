@@ -36,4 +36,4 @@ While the journey was demanding, the results have been invaluable. LeetCode has 
 
 
 # GeeksForGeeks Stats
-![download](https://github.com/user-attachments/assets/e0bfa661-937e-435a-876d-e14deec06989)
+![download (1)](https://github.com/user-attachments/assets/7b74aeb9-a5aa-4feb-910d-0c685537b522)
