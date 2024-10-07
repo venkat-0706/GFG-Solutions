@@ -1,0 +1,14 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/merge-sort-on-doubly-linked-list/0">Merge Sort on Doubly Linked List</a></h2><h3>Difficulty Level : Difficulty: Hard</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given Pointer/Reference to the <strong>head</strong> of a<strong> </strong>doubly linked list, the task is to Sort<strong> </strong>the<strong> </strong>given doubly linked list<strong> </strong>using<strong> Merge Sort&nbsp;</strong>in both <strong>non-decreasing</strong> and <strong>non-increasing</strong> order.</span></p>
+<p><span style="font-size: 14pt;"><strong>Note:</strong> Return the head of the sorted&nbsp;non-decreasing&nbsp;doubly linked list. The driver code will print it forward and backward in both directions.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>LinkedList:<strong> </strong>7 ↔ 3 ↔ 5 ↔ 2 ↔ 6 ↔ 4 ↔ 1 ↔ 8
+<strong>Output:
+</strong>LinkedList: 1 ↔ 2 ↔ 3 ↔ 4 ↔ 5 ↔ 6 ↔ 7 ↔ 8
+LinkedList: 8 ↔ 7 ↔ 6 ↔ 5 ↔ 4 ↔ 3 ↔ 2 ↔ 1<strong>
+Explanation: </strong>After sorting the given linked list in both ways, the resultant matrix will be as shown in the first two lines of the output. The first line shows the output for non-decreasing order, and the next line shows the output for non-increasing order.<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700538/Web/Other/blobid0_1725342004.png" width="371" height="139"><br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>LinkedList: 9 ↔ 15 ↔ 0 ↔ -1 ↔ 0<br><strong>Output:</strong>
+LinkedList: -1 ↔ 0 ↔ 0 ↔ 9 ↔ 15
+LinkedList: 15 ↔ 9 ↔ 0 ↔ 0 ↔ -1<strong>
+Explanation: </strong>After sorting the given linked list in both ways, the resultant list will be -1 → 0 → 0 → 9 → 15 in non-decreasing order and 15 → 9 → 0 → 0 → -1 in non-increasing order.<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700538/Web/Other/blobid1_1725342021.png" width="363" height="136"><br></span></pre>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity:&nbsp;</strong>O(nlogn)<br><strong>Expected Space Complexity:&nbsp;</strong>O(logn)</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 &lt;=&nbsp;<span style="font-family: Arial; white-space-collapse: preserve; background-color: #ffffff;">number of nodes</span> &lt;= 10<sup>5<br></sup>-10<sup>5</sup> &lt;= node-&gt;data &lt;= 10<sup>5<br></sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>doubly-linked-list</code>&nbsp;<code>Linked List</code>&nbsp;<code>Sorting</code>&nbsp;<code>Merge Sort</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
