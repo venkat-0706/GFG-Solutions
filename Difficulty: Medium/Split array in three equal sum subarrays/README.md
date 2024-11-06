@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/split-array-in-three-equal-sum-subarrays/1">Split array in three equal sum subarrays</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given an<strong>&nbsp;</strong>array, <strong>arr[],</strong><span style="background-color: #ffffff; color: #273239; font-family: Nunito, sans-serif; letter-spacing: 0.162px;"> d</span><span style="background-color: #ffffff; color: #273239; font-family: Nunito, sans-serif; letter-spacing: 0.162px;">etermine if <strong>arr</strong> can be split into three consecutive parts such that the sum of each part is equal. If possible, return any <strong>index </strong>pair(i, j) in an array such that sum(arr[0..i]) = sum(arr[i+1..j]) = sum(arr[j+1..n-1]), otherwise return an array <strong>{-1,-1}</strong>. </span></span></p>
+<p><span style="font-size: 14pt;"><span style="background-color: #ffffff; color: #273239; font-family: Nunito, sans-serif; letter-spacing: 0.162px;">Note: Driver code will print true if <strong>arr&nbsp;</strong></span><span style="background-color: #ffffff; color: #273239; font-family: Nunito, sans-serif; letter-spacing: 0.162px;">can be split into&nbsp;</span><span style="color: #273239; font-family: Nunito, sans-serif;"><span style="letter-spacing: 0.162px;">three equal sum subarrays, otherwise, it is false.</span></span></span></p>
+<p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong> arr[] = [1, 3, 4, 0, 4]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> [1, 2] is valid pair as sum of subarray arr[0..1] is equal to sum of subarray arr[2..3] and also to sum of subarray arr[4..4]. The sum is 4. </span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr[] = [2, 3, 4]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> No three subarrays exist which have equal sum.<br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr[] = [0, 1, 1]
+<strong>Output:</strong> false<br></span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>3 ≤ arr.size() ≤ 10<sup>6</sup><br>0 ≤ arr[i] ≤ 10<sup>6</sup><br></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>prefix-sum</code>&nbsp;<code>Arrays</code>&nbsp;
