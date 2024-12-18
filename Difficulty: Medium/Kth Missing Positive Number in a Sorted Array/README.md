@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/kth-missing-positive-number-in-a-sorted-array/1">Kth Missing Positive Number in a Sorted Array</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-size: 18px; vertical-align: baseline; color: #273239; font-family: Nunito, sans-serif; letter-spacing: 0.162px; background-color: #ffffff;">Given a sorted array of distinct positive integers </span><strong style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-size: 18px; vertical-align: baseline; color: #273239; font-family: Nunito, sans-serif; letter-spacing: 0.162px; background-color: #ffffff;"><strong style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;">arr[]</strong></strong><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-size: 18px; vertical-align: baseline; color: #273239; font-family: Nunito, sans-serif; letter-spacing: 0.162px; background-color: #ffffff;">, we need to find the <strong>kth</strong> positive number that is missing from arr[].&nbsp;&nbsp;</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [2, 3, 4, 7, 11], k = 5<br><strong>Output: </strong>9<strong>
+Explanation: </strong>Missing are 1, 5, 6, 8, 9, 10… and 5th missing number is 9.</span>
+</pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 3], k = 2
+<strong>Output: </strong>5<strong>
+Explanation: </strong>Missing are 4, 5, 6… and 2nd missing number is 5.<br></span></pre>
+<pre><strong>Input: </strong>arr[] = [3, 5, 9, 10, 11, 12], k = 2
+<strong>Output: </strong>2<strong>
+Explanation: </strong>Missing are 1, 2, 4, 5, 6… and 2nd missing number is 2.</pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 10<sup>5<br></sup>1 &lt;= k &lt;= 10<sup>5</sup><br>1 &lt;= arr[i]&lt;= 10<sup>6</sup><sup><br></sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Binary Search</code>&nbsp;<code>Arrays</code>&nbsp;
